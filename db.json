@@ -1,0 +1,250 @@
+{
+  "usuarios": [
+    {
+      "id": "1000001",
+      "name": "Alejandro Daniel",
+      "lastname": "Di Stefano",
+      "avatar": "https://avatars.githubusercontent.com/u/88512335?v=4",
+      "email": "addistefano@live.com.ar",
+      "nacimiento": "1976-02-18T03:00:00.000Z",
+      "dni": "22333666",
+      "role": "Admin",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR22333666_Admin",
+      "password": "1234"
+    },
+    {
+      "id": "1000002",
+      "name": "Profesor",
+      "lastname": "CoderHouse",
+      "avatar": "https://styles.redditmedia.com/t5_5blkvq/styles/communityIcon_t5ji6wuld2z71.jpg?format=pjpg&s=1672be49333cd14749784be8bbc3c968a033d8e0",
+      "email": "profesor@coderhouse.com.ar",
+      "nacimiento": "1999-10-28T03:00:00.000Z",
+      "dni": "22555666",
+      "role": "Admin",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR22555666_Admin",
+      "password": "1234"
+    },
+    {
+      "id": "1000003",
+      "name": "Tutora",
+      "lastname": "CoderHouse",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-6pItNad9dOoQL4YyTQ49opM43koaj7Y_Rg&s",
+      "email": "tutora@coderhouse.com.ar",
+      "nacimiento": "2000-02-20T03:00:00.000Z",
+      "dni": "22333444",
+      "role": "Admin",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR22333444_Admin",
+      "password": "1234"
+    },
+    {
+      "id": "cbc2",
+      "name": "Usuario",
+      "lastname": "Basico",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/05/31/ff053180-996e-a263-6977-eaea5c320626/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png",
+      "email": "usuario@coderhouse.com.ar",
+      "nacimiento": "2000-01-10T03:00:00.000Z",
+      "dni": "11222333",
+      "role": "User",
+      "password": "1234",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR11222333_User",
+      "createdAt": "2024-10-26T13:02:18.553Z"
+    }
+  ],
+  "alumnos": [
+    {
+      "id": "d697",
+      "name": "Alumno",
+      "lastname": "Nuevo",
+      "dni": "12345678",
+      "email": "alumno@mail.com",
+      "avatar": "assets/img/person.png",
+      "nacimiento": "2000-03-10T00:00:00.000Z",
+      "role": "Alumno",
+      "password": "12345678",
+      "matricula": "MAN98236",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR12345678_Alumno",
+      "createdAt": "2024-10-27T19:43:21.902Z",
+      "cursos": [
+        {
+          "id": "d3fa",
+          "nombre": "Italiano",
+          "descripcion": "Curso de Italiano intensivo para Principiantes",
+          "precio": 125900,
+          "thumbnail": "https://logodownload.org/wp-content/uploads/2023/09/bandeira-italy-flag-4.png",
+          "categoria": {
+            "id": 1,
+            "nombre": "Idiomas"
+          },
+          "inicio": "2024-10-31T03:00:00.000Z",
+          "finalizacion": "2025-06-29T03:00:00.000Z",
+          "estado": true,
+          "profesor": "Profesor Jirafales",
+          "comision": 92658
+        },
+        {
+          "id": "c481",
+          "nombre": "Ingles",
+          "descripcion": "Curso de Ingles intensivo para Principiantes",
+          "precio": 123050,
+          "thumbnail": "https://sliwils.com/cdn/shop/articles/bandera-inglesa_1024x.jpg?v=1705919949",
+          "categoria": {
+            "id": 1,
+            "nombre": "Idiomas"
+          },
+          "inicio": "2024-10-28T03:00:00.000Z",
+          "finalizacion": "2025-05-30T03:00:00.000Z",
+          "estado": true,
+          "profesor": "Profesor Jirafales",
+          "comision": 20187
+        },
+        {
+          "id": "0ea5",
+          "nombre": "Scrum Inicial",
+          "descripcion": "Scrum Inicial",
+          "precio": 110500,
+          "thumbnail": "https://calaixagil.com/docs/agils/activitats_scrum/sprint.png",
+          "categoria": {
+            "id": 2,
+            "nombre": "Habilidades Blandas"
+          },
+          "inicio": "2024-10-31T03:00:00.000Z",
+          "finalizacion": "2025-01-03T03:00:00.000Z",
+          "estado": true,
+          "profesor": "Profesor Jirafales",
+          "comision": 66275
+        }
+      ]
+    }
+  ],
+  "profesores": [
+    {
+      "id": "e400",
+      "name": "Profesor",
+      "lastname": "Jirafales",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxHrKwtLZMutK6g1EM7s8lztaXCo925XIB0g&s",
+      "email": "profe@mail.com",
+      "nacimiento": "1940-01-10T00:00:00.000Z",
+      "dni": "11222333",
+      "legajo": "LPJ54835",
+      "cursos": [
+        {
+          "id": "d3fa",
+          "nombre": "Italiano",
+          "descripcion": "Curso de Italiano intensivo para Principiantes",
+          "precio": 125900,
+          "thumbnail": "https://logodownload.org/wp-content/uploads/2023/09/bandeira-italy-flag-4.png",
+          "categoria": {
+            "id": 1,
+            "nombre": "Idiomas"
+          },
+          "inicio": "2024-10-31T03:00:00.000Z",
+          "finalizacion": "2025-06-29T03:00:00.000Z",
+          "estado": true,
+          "profesor": "Profesor Jirafales",
+          "comision": 92658
+        },
+        {
+          "id": "c481",
+          "nombre": "Ingles",
+          "descripcion": "Curso de Ingles intensivo para Principiantes",
+          "precio": 123050,
+          "thumbnail": "https://sliwils.com/cdn/shop/articles/bandera-inglesa_1024x.jpg?v=1705919949",
+          "categoria": {
+            "id": 1,
+            "nombre": "Idiomas"
+          },
+          "inicio": "2024-10-28T03:00:00.000Z",
+          "finalizacion": "2025-05-30T03:00:00.000Z",
+          "estado": true,
+          "profesor": null,
+          "comision": 20187
+        },
+        {
+          "id": "0ea5",
+          "nombre": "Scrum Inicial",
+          "descripcion": "Scrum Inicial",
+          "precio": 110500,
+          "thumbnail": "https://calaixagil.com/docs/agils/activitats_scrum/sprint.png",
+          "categoria": {
+            "id": 2,
+            "nombre": "Habilidades Blandas"
+          },
+          "inicio": "2024-10-31T03:00:00.000Z",
+          "finalizacion": "2025-01-03T03:00:00.000Z",
+          "estado": true,
+          "profesor": null,
+          "comision": 66275
+        }
+      ],
+      "password": "11222333",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR11222333_Profesor",
+      "createdAt": "2024-10-27T13:37:35.558Z"
+    },
+    {
+      "id": "eddc",
+      "name": "Profesora",
+      "lastname": "Martha",
+      "avatar": "https://cdn.mos.cms.futurecdn.net/3VDSL25oQ8i2jiALkWxDem-1200-80.jpg",
+      "email": "martha@mail.com",
+      "nacimiento": "1950-04-03T00:00:00.000Z",
+      "dni": "22555444",
+      "legajo": "LPM76239",
+      "cursos": [],
+      "password": "22555444",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR22555444_Profesor",
+      "createdAt": "2024-10-27T13:38:32.035Z"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "d3fa",
+      "nombre": "Italiano",
+      "descripcion": "Curso de Italiano intensivo para Principiantes",
+      "precio": 125900,
+      "thumbnail": "https://logodownload.org/wp-content/uploads/2023/09/bandeira-italy-flag-4.png",
+      "categoria": {
+        "id": 1,
+        "nombre": "Idiomas"
+      },
+      "inicio": "2024-10-31T03:00:00.000Z",
+      "finalizacion": "2025-06-29T03:00:00.000Z",
+      "estado": true,
+      "profesor": "Profesor Jirafales",
+      "comision": 92658
+    },
+    {
+      "id": "c481",
+      "nombre": "Ingles",
+      "descripcion": "Curso de Ingles intensivo para Principiantes",
+      "precio": 123050,
+      "thumbnail": "https://sliwils.com/cdn/shop/articles/bandera-inglesa_1024x.jpg?v=1705919949",
+      "categoria": {
+        "id": 1,
+        "nombre": "Idiomas"
+      },
+      "inicio": "2024-10-28T03:00:00.000Z",
+      "finalizacion": "2025-05-30T03:00:00.000Z",
+      "estado": true,
+      "profesor": "Profesor Jirafales",
+      "comision": 20187
+    },
+    {
+      "id": "0ea5",
+      "nombre": "Scrum Inicial",
+      "descripcion": "Scrum Inicial",
+      "precio": 110500,
+      "thumbnail": "https://calaixagil.com/docs/agils/activitats_scrum/sprint.png",
+      "categoria": {
+        "id": 2,
+        "nombre": "Habilidades Blandas"
+      },
+      "inicio": "2024-10-31T03:00:00.000Z",
+      "finalizacion": "2025-01-03T03:00:00.000Z",
+      "estado": true,
+      "profesor": "Profesor Jirafales",
+      "comision": 66275
+    }
+  ]
+}
