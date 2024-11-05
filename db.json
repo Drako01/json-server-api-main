@@ -183,8 +183,8 @@
     },
     {
       "id": "eddc",
-      "name": "Profesora",
-      "lastname": "Martha",
+      "name": "Martha",
+      "lastname": "Stuart",
       "avatar": "https://cdn.mos.cms.futurecdn.net/3VDSL25oQ8i2jiALkWxDem-1200-80.jpg",
       "email": "martha@mail.com",
       "nacimiento": "1950-04-03T00:00:00.000Z",
@@ -195,6 +195,100 @@
       "role": "Profesor",
       "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR22555444_Profesor",
       "createdAt": "2024-10-27T13:38:32.035Z"
+    },
+    {
+      "id": "f250",
+      "name": "John",
+      "lastname": "Wick",
+      "avatar": "https://cinepop.com.br/wp-content/uploads/2022/12/john-wick-4-e1670112391795.jpg",
+      "email": "john@mail.com",
+      "nacimiento": "2024-11-01T00:00:00.000Z",
+      "dni": "12345",
+      "legajo": "LJW23007",
+      "cursos": [
+        {
+          "id": "b5df",
+          "nombre": "Negociación efectiva",
+          "descripcion": "",
+          "precio": 89052,
+          "thumbnail": "https://ce.entel.cl/wp-content/uploads/2022/10/proceso-de-negociacion.jpg",
+          "categoria": {
+            "id": 2,
+            "nombre": "Habilidades Blandas"
+          },
+          "inicio": "2024-11-29T03:00:00.000Z",
+          "finalizacion": "2025-01-25T03:00:00.000Z",
+          "estado": true,
+          "profesor": null,
+          "comision": 50113
+        }
+      ],
+      "password": "12345",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR12345_Profesor",
+      "createdAt": "2024-11-05T16:18:36.171Z"
+    },
+    {
+      "id": "8a16",
+      "name": "Tony",
+      "lastname": "Stark",
+      "avatar": "https://www.lanacion.com.ar/resizer/v2/robert-downey-jr-cambia-de-escuderia-y-trabaja-en-H6ETMQNEORB6RE6JHEKAZL52HE.jpg?auth=908f8d3529c847a896d06103e51f516eba613916ffe22e4e1a4094ec8aed451a&width=420&height=280&quality=70&smart=true",
+      "email": "tony@mail.com",
+      "nacimiento": "2024-11-01T00:00:00.000Z",
+      "dni": "321",
+      "legajo": "LTS50793",
+      "cursos": [
+        {
+          "id": "1452",
+          "nombre": "Coaching",
+          "descripcion": "",
+          "precio": 356852,
+          "thumbnail": "https://www.blaucomunicacion.es/wp-content/uploads/shutterstock_107760329-executive-coaching.jpg",
+          "categoria": {
+            "id": 2,
+            "nombre": "Habilidades Blandas"
+          },
+          "inicio": "2024-11-22T03:00:00.000Z",
+          "finalizacion": "2025-06-29T03:00:00.000Z",
+          "estado": true,
+          "profesor": null,
+          "comision": 43692
+        }
+      ],
+      "password": "321",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR321_Profesor",
+      "createdAt": "2024-11-05T16:19:14.573Z"
+    },
+    {
+      "id": "e543",
+      "name": "Thor",
+      "lastname": "Odinson",
+      "avatar": "https://hips.hearstapps.com/hmg-prod/images/chris-hemsworth-thor-1623742528.jpeg?crop=0.5625xw:1xh;center,top&resize=640:*",
+      "email": "thor@mail.com",
+      "nacimiento": "2001-01-11T03:00:00.000Z",
+      "dni": "1111",
+      "legajo": "LTO07057",
+      "cursos": [],
+      "password": "1111",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR1111_Profesor",
+      "createdAt": "2024-11-05T16:25:37.526Z"
+    },
+    {
+      "id": "3e6d",
+      "name": "Jane",
+      "lastname": "Foster",
+      "avatar": "https://i.pinimg.com/736x/57/d2/0b/57d20ba89d1cb80a7fca452492a5b41a.jpg",
+      "email": "jane@mail.com",
+      "nacimiento": "1980-05-11T03:00:00.000Z",
+      "dni": "3215",
+      "legajo": "LJF18524",
+      "cursos": [],
+      "password": "3215",
+      "role": "Profesor",
+      "token": "_FbxxjS7zLYlhZGQ5smG2zgwqTWHG54oPlyg3fZz57oYqOv7RIGfAiJsTO8K7g5cR3215_Profesor",
+      "createdAt": "2024-11-05T16:27:14.025Z"
     }
   ],
   "cursos": [
@@ -245,6 +339,70 @@
       "estado": true,
       "profesor": "Profesor Jirafales",
       "comision": 66275
+    },
+    {
+      "id": "a878",
+      "nombre": "Alemán",
+      "descripcion": "",
+      "precio": 123523,
+      "thumbnail": "https://www.banderas-e-himnos.com/media/5/bandera-alemania.png",
+      "categoria": {
+        "id": 1,
+        "nombre": "Idiomas"
+      },
+      "inicio": "2024-11-20T03:00:00.000Z",
+      "finalizacion": "2025-03-29T03:00:00.000Z",
+      "estado": true,
+      "profesor": null,
+      "comision": 16234
+    },
+    {
+      "id": "a4f2",
+      "nombre": "Frances",
+      "descripcion": "",
+      "precio": 156233,
+      "thumbnail": "https://s1.significados.com/foto/bandera-de-francia-og.jpg",
+      "categoria": {
+        "id": 1,
+        "nombre": "Idiomas"
+      },
+      "inicio": "2024-11-25T03:00:00.000Z",
+      "finalizacion": "2025-04-25T03:00:00.000Z",
+      "estado": true,
+      "profesor": null,
+      "comision": 98006
+    },
+    {
+      "id": "b5df",
+      "nombre": "Negociación efectiva",
+      "descripcion": "",
+      "precio": 89052,
+      "thumbnail": "https://ce.entel.cl/wp-content/uploads/2022/10/proceso-de-negociacion.jpg",
+      "categoria": {
+        "id": 2,
+        "nombre": "Habilidades Blandas"
+      },
+      "inicio": "2024-11-29T03:00:00.000Z",
+      "finalizacion": "2025-01-25T03:00:00.000Z",
+      "estado": true,
+      "profesor": "John Wick",
+      "comision": 50113
+    },
+    {
+      "id": "1452",
+      "nombre": "Coaching",
+      "descripcion": "",
+      "precio": 356852,
+      "thumbnail": "https://www.blaucomunicacion.es/wp-content/uploads/shutterstock_107760329-executive-coaching.jpg",
+      "categoria": {
+        "id": 2,
+        "nombre": "Habilidades Blandas"
+      },
+      "inicio": "2024-11-22T03:00:00.000Z",
+      "finalizacion": "2025-06-29T03:00:00.000Z",
+      "estado": true,
+      "profesor": "Tony Stark",
+      "comision": 43692
     }
   ]
 }
